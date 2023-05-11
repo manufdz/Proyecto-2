@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleP.css">
+    <title>Clasificación</title>
+</head>
+
+<body class="fondo2">
+    <!-- (NAVBAR) -->
+    <div class="barra-navegacion">
+        <nav class="navbar navbar-expand-lg bg-dark.bg-gradient">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand text-success " href="#">LAliga</a>  -->
+                <a class="navbar-brand" href="#">
+                    <img src="./imghome/pngwing.com.png" width="30" height="24">
+                </a>
+                <button class="navbar-toggler background: linear-gradient(blue, pink);" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page"
+                                href="resultados.html">Resultados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="clasificacion.html">Clasificación</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <a href="home.html">
+        <img class="logoppal" src="./imghome/laliga-h-negativo-1200x1200.jpg" alt="Descripción de la imagen">
+    </a>
+    <img class="escudos1" src="./imghome/fotor_2023-3-8_21_51_35.png" alt="">
+    <img class="escudos2" src="./imghome/escudos2.png" alt="">
+
+
+    <!-- creamos el cuerpo en el html, lo único que rellenaremos es el encabezado de la tabla,el resto solo estructura
+    que se rellenará con JS. (encabezado,filas,celdas), despues funcion tbody para el cuerpo en JS, que enlazaremos con "id" -->
+   
+   <!-- TABLA CLASIFICACION -->
+
+   
+
+    <div class="container">
+    
+
+        <table class="table table-primary table-striped table-hover table-dark">
+            <h2>TABLA CLASIFICACIÓN</h2>
+            <thead>
+                <tr>
+                    <th>posición</th>
+                    <th>equipo</th>
+                    <th>p.ganados</th>
+                    <th>p.empatados</th>
+                    <th>derrotas</th>
+                    <th>goles favor</th>
+                    <th>goles contra</th>
+                    <th>dif.goles</th>
+                    <th>puntos totales</th>
+                </tr>
+            </thead>
+            <tbody id="ctable">
+
+            </tbody>
+
+        </table>
+
+        <script src="clasificacion.js"></script>
+        <script src="tablaC.js"></script>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+
+<footer class="pie">
+    <p>Manuel Fernández Hernández</p>
+    <div class="iconos">
+      <a href="https://www.facebook.com/LaLiga">
+        <img src="./imghome/Facebook_icon-icons.com_55914.png" class="facebook" alt="Descripción de la imagen" />
+      </a>
+      <a href="https://www.instagram.com/laliga/">
+        <img src="./imghome/instagram_f_icon-icons.com_65485.png" alt="Descripción de la imagen" /> </a><a
+        href="https://twitter.com/laliga">
+        <img src="./imghome/twitter-logo-on-black-background_icon-icons.com_72503.png" alt="Descripción de la imagen" />
+      </a>
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>

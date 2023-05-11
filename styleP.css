@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-navegacion {
+  background: linear-gradient(rgb(0, 0, 0), rgb(87, 86, 86));
+}
+li.nav-item a {
+  color: white !important;
+}
+li.nav-item a:hover {
+  color: rgb(0, 203, 44) !important;
+  background-color: white;
+  border-radius: 5px;
+}
+.logoppal {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
+.escudos1 {
+  display: block;
+  width: 45%;
+  margin-top: -140px;
+}
+.escudos2 {
+  display: block;
+  width: 45%;
+  margin-top: -70px;
+  float: right;
+}
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cuerpo {
+  background-image: url("./imghome/estadiofondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+}
+.fondo {
+  /* background-color: rgba(25, 24, 24, 0.856);
+    position: relative; */
+  background-image: url(./imghome/grass-background.jpg);
+}
+.fondo2 {
+  background-image: url(./imghome/camporaya.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photo {
+  width: 600px;
+  height: 400px;
+}
+.box {
+  width: 70%;
+  margin: auto;
+}
+.miCarusel {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.imagen {
+  width: 600px;
+  height: 600px;
+}
+.pie{
+  background-color: white;
+  
+}
+.iconos img{
+  width: 50px;
+  }
+.iconos img.facebook{
+  width: 70px;
+  margin-top: -8px;
+}
+  .iconos{
+    display: flex;
+    justify-content: end;
+
+  }
+
+  .iconos a{
+    padding: 20px;
+  }
+  /* .iconos a .facebook{
+width: 20px;
+  } */
+  .card-img-top2{
+    height: 309px;
+  }
+  .card-img-top3{
+    height: 309px;
+  }
+
+  .mi-input{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    
+  }
+
+  .botonesBusqueda{
+    width: 30%;
+    margin: auto;
+    color: white;
+  }
